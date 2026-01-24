@@ -78,3 +78,23 @@
 
 
 // alert(students[0])
+
+
+// const friendsNames = ['Sahal','Kamran','Arsalan','Mustafa','Azan','Haseeb','Anus'];
+// const updatedFriendsNames = friendsNames.toSpliced(4,1);
+
+// console.log(friendsNames);
+// console.log(updatedFriendsNames);
+
+
+// const myHome1 = ['Paayan', 'Abbotabad', 'Jhelum'];
+// const myHome2 = JSON.stringify(myHome1);
+// const myHome3 = JSON.parse(JSON.stringify(myHome1));
+
+// myHome2.push('Karachi');
+
+// console.log(myHome1);
+// console.log(myHome2);
+// console.log(myHome3);
+
+
