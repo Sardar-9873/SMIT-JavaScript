@@ -34,3 +34,47 @@
 
 
 
+// const userAge = + prompt("Enter your Age");
+// alert("Check in Dev-Tool-Console. That your License is approved or not.")
+
+// if (userAge < 18){
+//     console.debug("License Rejected | Under Age");
+//     console.log("Check in Verbose");
+// }
+// else if (userAge >= 45){
+//     console.debug("License Rejected | Over Age");
+//     console.log("Check in Verbose");
+// }
+// else{
+//     console.log("License Approved");
+//     console.debug("Check in Info");
+// }
+
+
+// const myAge = 13;
+
+// if (myAge !== "13"){
+//     alert("Hello World")
+// }
+
+
+// const students = ["Sahal", "Kamran", "Arsalan", "Mustafa", "Azan"];
+// console.log(students);
+
+// console.log(students.push("Azan"));
+// console.log(students.pop());
+
+// console.log(students.unshift("Azan"));
+// console.log(students.shift());
+
+// console.log(students.splice(2 , 2));
+
+// console.log(students.splice(1 , 1 , "Kami"));
+// console.log(students.splice(1 , 0 , "Haseeb"))
+
+// console.log(students.slice(0 , 3))
+
+// console.log(students);
+
+
+// alert(students[0])
