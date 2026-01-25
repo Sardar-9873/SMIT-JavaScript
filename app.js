@@ -58,7 +58,7 @@
 // }
 
 
-// const students = ["Sahal", "Kamran", "Arsalan", "Mustafa", "Azan"];
+// const students = ["Sahal", "Kamran", "Arsalan", "Mustafa"];
 // console.log(students);
 
 // console.log(students.push("Azan"));
