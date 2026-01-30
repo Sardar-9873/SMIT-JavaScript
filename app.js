@@ -98,3 +98,24 @@
 // console.log(myHome3);
 
 
+// for (let i = 0;i < 4;i++){
+//     console.info("Fatih-Al-Quds Sultan Yousaf ibn-e-Ayyub Salahuddin Ayyubi");
+// }
+
+
+// const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14];
+// let isNumberFound = false;
+
+// const findingNumber = 5;
+
+// for (let i = 0; i < myNumbers.length; i++) {
+//   const item = myNumbers[i];
+//   console.log(i , item);    
+
+//   if (item === findingNumber) {
+//     isNumberFound = true;
+//     continue;
+//   }
+// }
+
+// console.log(isNumberFound, "====number");
