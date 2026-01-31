@@ -110,12 +110,13 @@
 
 // for (let i = 0; i < myNumbers.length; i++) {
 //   const item = myNumbers[i];
-//   console.log(i , item);    
 
 //   if (item === findingNumber) {
 //     isNumberFound = true;
-//     continue;
+//     break;
 //   }
+//   console.log(i , item);    
+
 // }
 
 // console.log(isNumberFound, "====number");
