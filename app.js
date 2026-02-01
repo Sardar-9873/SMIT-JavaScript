@@ -231,3 +231,17 @@ const text = "the quick brown fox jump over a lazy queen dog";
 // const newGreetings = greeting.replaceAll("Hello", "Hi");
 
 // console.log(newGreetings);
+
+
+// const firstNames = ["BlueRay ", "Upchuck ", "Lojack ", "Gizmo ", "Do-Rag "];
+// const lastNames = ["Zzz", "Burp", "Dogbone", "Droop"];
+// const fullNames = [];
+
+// for (let i = 0; i < firstNames.length; i++) {
+// for (let j = 0; j < lastNames.length; j++) {
+// fullNames.push(firstNames[i] + lastNames[j]);
+// }} 
+
+// console.log(firstNames);
+// console.log(lastNames); 
+// console.log(fullNames);
