@@ -120,3 +120,114 @@
 // }
 
 // console.log(isNumberFound, "====number");
+
+// const myNumbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let isNumberFound = false;
+
+// for (i = 0; i < myNumbers.length; i++) {
+//     const element = myNumbers[i];
+//     console.log(element);
+
+//     if (element === 5) {
+//         isNumberFound = true;
+//         break;
+//     }
+//     console.log(element);
+// }
+
+// console.log(isNumberFound);
+
+
+// const email = "abdullah@mailinator.com";
+// const userEnteredEmail = prompt("Enter your email to login");
+// const userEnteredLower = userEnteredEmail.toLowerCase();
+
+// if (email === userEnteredLower) alert("Login Succesfully");
+// else alert("Invalid Credentials");
+
+// console.log(email[3],email.length);
+
+// const userName = email.slice(0,8);
+// console.log(userName);
+
+// const country1 = "islaMic ";
+
+// let firstLetter1 = country1[0];
+// let otherLetters1 = country1.slice(1);
+
+// firstLetter1 = firstLetter1.toUpperCase();
+// otherLetters1 = otherLetters1.toLowerCase();
+
+// const finalCountryName1 = firstLetter1 + otherLetters1;
+
+
+// const country2 = "repUblic of ";
+
+// let firstLetter2 = country2[0];
+// let otherLetters2 = country2.slice(1);
+
+// firstLetter2 = firstLetter2.toUpperCase();
+// otherLetters2 = otherLetters2.toLowerCase();
+
+// const finalCountryName2 = firstLetter2 + otherLetters2;
+
+
+// const country = "pakisTan";
+
+// const countryName = country.lastIndexOf("p");
+// let firstLetter = country[countryName];
+
+// const countryName1 = country.indexOf("a")
+// let otherLetters = country.slice(countryName1);
+
+// firstLetter = firstLetter.toUpperCase();
+// otherLetters = otherLetters.toLowerCase();
+
+// const finalCountryName = firstLetter + otherLetters;
+
+// const completeCountryName = finalCountryName1 + finalCountryName2 + finalCountryName;
+
+// console.log(finalCountryName1);
+// console.log(finalCountryName2);
+// console.log(finalCountryName);
+// console.log(completeCountryName);
+
+
+// const email = "abdullah@mailinator.com";
+// const emailStartIndex = email.indexOf("@");
+// const userName = email.slice(0,emailStartIndex);
+// console.log(userName);
+
+const text = "the quick brown fox jump over a lazy queen dog";
+
+// let totalWords = 0;
+// for (let i = 0; i < text.length; i++) {
+//   const item = text[i];
+//   if (item === " ") totalWords++;
+// }
+// if (totalWords) totalWords = totalWords + 1;
+// console.log(totalWords);
+
+// console.log(text[2]);
+// const indexOf = text.indexOf("this");
+// const lastIndexOf = text.lastIndexOf("q");
+// console.log(indexOf, lastIndexOf);
+
+// const userWord = "brown";
+// let indexNumber = -1;
+// for (let i = 0; i < text.length; i++) {
+//   const item = text.slice(i, i + userWord.length);
+//   console.log(item);
+//   if (item === userWord) {
+//     indexNumber = i;
+//     break;
+//   }
+// }
+
+// console.log(indexNumber);
+// debugger;
+
+// const greeting = "Hello How're Hello you!";
+// const newGreetings = greeting.replaceAll("Hello", "Hi");
+
+// console.log(newGreetings);
