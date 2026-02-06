@@ -1,5 +1,5 @@
-// var userAge = prompt(`Enter Your Year of Birth!!!`);
-// var updatedUserAge = 2026 - userAge;
+// const userAge = prompt(`Enter Your Year of Birth!!!`);
+// const updatedUserAge = 2026 - userAge;
 // alert("Your Age is " + updatedUserAge);
 
 // const myName = prompt("Enter your Name");
@@ -198,7 +198,7 @@
 // const userName = email.slice(0,emailStartIndex);
 // console.log(userName);
 
-const text = "the quick brown fox jump over a lazy queen dog";
+// const text = "the quick brown fox jump over a lazy queen dog";
 
 // let totalWords = 0;
 // for (let i = 0; i < text.length; i++) {
