@@ -2,6 +2,17 @@
 // const updatedUserAge = 2026 - userAge;
 // alert("Your Age is " + updatedUserAge);
 
+
+// var firstName;
+// firstName = "Abdullah";
+// var firstName = '"Abdullah"';
+// firstName = "Motiwala";
+// console.log(firstName);
+
+// firstName = "Motiwala";
+// console.log(firstName);
+
+
 // const myName = prompt("Enter your Name");
 
 // const myFatherName = "Shehzad";
@@ -53,7 +64,7 @@
 
 // const myAge = 13;
 
-// if (myAge !== "13"){
+// if (myAge !== '13'){
 //     alert("Hello World")
 // }
 
@@ -67,7 +78,7 @@
 // console.log(students.unshift("Azan"));
 // console.log(students.shift());
 
-// console.log(students.splice(2 , 2));
+// console.log(students.splice(2 , 2)); 
 
 // console.log(students.splice(1 , 1 , "Kami"));
 // console.log(students.splice(1 , 0 , "Haseeb"))
@@ -77,7 +88,7 @@
 // console.log(students);
 
 
-// alert(students[0])
+// alert(students[0]);
 
 
 // const friendsNames = ['Sahal','Kamran','Arsalan','Mustafa','Azan','Haseeb','Anus'];
@@ -88,10 +99,10 @@
 
 
 // const myHome1 = ['Paayan', 'Abbotabad', 'Jhelum'];
-// const myHome2 = JSON.stringify(myHome1);
+// const myHome2 = myHome1;
 // const myHome3 = JSON.parse(JSON.stringify(myHome1));
 
-// myHome2.push('Karachi');
+// myHome3.push('Karachi');
 
 // console.log(myHome1);
 // console.log(myHome2);
