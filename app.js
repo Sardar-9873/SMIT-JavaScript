@@ -99,14 +99,12 @@
 
 
 // const myHome1 = ['Paayan', 'Abbotabad', 'Jhelum'];
-// const myHome2 = myHome1;
-// const myHome3 = JSON.parse(JSON.stringify(myHome1));
+// const myHome2 = JSON.parse(JSON.stringify(myHome1));
 
 // myHome3.push('Karachi');
 
 // console.log(myHome1);
 // console.log(myHome2);
-// console.log(myHome3);
 
 
 // for (let i = 0;i < 4;i++){
@@ -120,13 +118,14 @@
 // const findingNumber = 5;
 
 // for (let i = 0; i < myNumbers.length; i++) {
-//   const item = myNumbers[i];
+//     const item = myNumbers[i];
 
-//   if (item === findingNumber) {
-//     isNumberFound = true;
-//     break;
-//   }
-//   console.log(i , item);    
+//     if (item === findingNumber) {
+//         isNumberFound = true;
+//         break;
+//     }
+//     console.log(item);
+//     console.log(i);
 
 // }
 
@@ -251,8 +250,84 @@
 // for (let i = 0; i < firstNames.length; i++) {
 // for (let j = 0; j < lastNames.length; j++) {
 // fullNames.push(firstNames[i] + lastNames[j]);
-// }} 
+// }}
 
 // console.log(firstNames);
-// console.log(lastNames); 
+// console.log(lastNames);
 // console.log(fullNames);
+
+
+// let totalScore = 0;
+// const target = 50;
+
+// while (totalScore < target) {
+//     const userNumber = +prompt("Enter your Number");
+
+//     const randomNumber = Math.random();
+//     const computerNumber = Math.ceil(randomNumber * 6);
+//     alert("Computer number is : " + computerNumber);
+
+//     const isWicket = userNumber === computerNumber;
+//     if (isWicket) {
+//         alert("Ohho, Out by Computer (Dumb Machine)");
+//         break;
+//     } else {
+//         totalScore += userNumber;
+//         if (totalScore >= target) {
+//             alert("Hurrrayy! You won");
+//         } else {
+//             alert("Your total is: " + totalScore);
+//         }
+//     }
+// }
+
+// const sellingItem = prompt("What do you want to sell us .");
+
+// const sellingItemDetails = prompt("Enter all details of " + sellingItem);
+
+// const itemPrice = +prompt("Enter price of " + sellingItem);
+
+// const roundedItemPrice = Math.floor(itemPrice);
+
+// const randomNumber = Math.ceil(Math.random() * 5);
+
+// alert("I'll pay " + roundedItemPrice + " and I'll also give you bonus $" + randomNumber);
+
+// const areYouAgreed = prompt("Are you agreed to sell your " + sellingItem + "? Answer in true/false .");
+
+// if(areYouAgreed === "true" || "True"){
+//     const userAddress = prompt("Give me your address My rider is coming to you for picking " + sellingItem);
+//     const paymentMethod = prompt("Do you want COD or Online Payment.If you want COD enter COD | Else you want Online Payment then enter Online Payment.");
+//     if(paymentMethod === "COD"){
+//         alert("Ok,my rider is coming.");
+//     }else if(paymentMethod === "Online Payment"){
+//         const onlinePaymentMethod = prompt("From which you want payment: EasyPaisa , JazzCash , Bank Transfer .");
+//         if(onlinePaymentMethod === "EasyPaisa"){
+//            const userPhoneNumberEP = +prompt("Enter your EasyPaisa Account Number .");
+//            alert("Wait 2 minutes");
+//            alert("Your payment is transfered to you .");
+//         }else if(onlinePaymentMethod === "JazzCash"){
+//            const userPhoneNumberJC = +prompt("Enter your JazzCash Account Number .");
+//            alert("Wait 2 minutes");
+//            alert("Your payment is transfered to you .");
+//         }else if(onlinePaymentMethod === "Bank Transfer"){
+//             const userBankName = prompt("Enter your bank name in which you want that I'll pay you .");
+//             const userBankAccount = +prompt("Enter your bank account .");
+//             const userIBAN = prompt("Enter your IBAN");
+//             alert("Wait 2 minutes");
+//             alert("Your payment is transfered to you .");
+//         }}
+//     }else if(areYouAgreed === "false" || "False"){
+//       alert("Ok , Thank You for visiting us .")
+//     }
+
+// const myNos = 10000.252;
+// const myNos2 = myNos.toFixed(2);
+
+// console.log(myNos);
+// console.log(myNos2);
+
+// const myNumber = 55;
+// const myNewNumber = myNumber.toExponential(1);
+
+// console.log(myNewNumber,myNumber);
