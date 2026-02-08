@@ -331,3 +331,30 @@
 // const myNewNumber = myNumber.toExponential(1);
 
 // console.log(myNewNumber,myNumber);
+
+// const date = new Date();
+// const saveAbleDate = date.toString();
+
+//     myDate.getSeconds(),
+//     myDate.getMilliseconds(),
+//     myDate.getTime(),
+// );
+
+// const dayNames = ["اتوار", "پیر", "منگل", "بدھ", "جمعرات", "جمعہ", "ھفتہ"];
+
+// const now = new Date();
+// const theDay = now.getDay();
+// const nameOfToday = dayNames[theDay];
+
+// console.log(nameOfToday);
+
+// let text =  "The New Yorker magazine doesn't allow the phrase World War II.  They say it shouldbe the Second World War. So lets search the following sentence for the banned charactersand replace them with the phrase that the New Yorker prefers.It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien waswriting the trilogy, which contains, with the weird applicability available only to poetry andmyth, the essential notion that the good gray wizard can understand the evil magi preciselybecause he is just enough like them to grasp their minds and motives in ways that they cannotgrasp his." ;
+
+// for (let i = 0; i < text.length; i++) {
+// if (text.slice(i, i + 12) === "World War II") {
+// text = text.slice(0, i) + "the Second World War" + text.slice(i + 12);
+// }
+// }
+
+// console.info(text);
+
