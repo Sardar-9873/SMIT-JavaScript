@@ -335,6 +335,16 @@
 // const date = new Date();
 // const saveAbleDate = date.toString();
 
+// console.log(date , saveAbleDate);
+
+// const myDate = new Date();
+
+// console.log(
+//     myDate.getDate(),
+//     myDate.getDay(),
+//     myDate.getFullYear(),
+//     myDate.getHours(),
+//     myDate.getMinutes(),
 //     myDate.getSeconds(),
 //     myDate.getMilliseconds(),
 //     myDate.getTime(),
