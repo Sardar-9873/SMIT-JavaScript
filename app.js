@@ -438,6 +438,8 @@
 // else if (timeConsumedInSecs > 5) alert(" Ohho, too slow");
 // else alert("You won, don't think you're genuis");
 
+// const date101 = new Date();
+// console.log(date101);
 
 
 // function date() {
@@ -497,5 +499,83 @@
 // f();
 
 // const mn = "Sahal";
+
+// function fo(welcome) {
+//     console.log(welcome);
+// }
+
+// fo("Welcome to Javascript");
+
+// function fro(fullname) {
+//     console.log(`Hello `  + fullname)
+// }
+
+// fro("Sahal");
+
+// function sahal(firstName){
+//     const greetings11 = `Hi ${firstName}`;
+//     console.log(greetings11);
+//     return greetings11;
+// }
+
+// sahal("Sahal");
+
+// const response = sahal("Shehzad");
+
+// console.log(response); 
+
+
+// function sum(value1 , value2){
+//     const result = value1 + value2;
+//     console.log(result);
+//     return result;
+// }
+
+// sum(20,90);
+
+// console.log(sum(20,20));
+
+// const dayOfWk = prompt("Enter current day!!!");
+
+// if (dayOfWk ==="Sat" || dayOfWk === "Sun") {
+// alert("Whoopee!");
+// }
+// else if (dayOfWk === "Fri") {
+// alert("TGIF!");
+// }
+// else {
+// alert("Shoot me now!");
+// }
+
+
+// switch(dayOfWk) {
+// case "Sat" :
+// alert("Whoopee");
+// break;
+// case "Sun" :
+// alert("Whoopee");
+// break;
+// case "Fri" :
+// alert("TGIF!");
+// break;
+// default :
+// alert("Shoot me now!");
+// }
+
+// function currencyConverterV1() {
+
+//     const rate = 0.0036;
+//     const pkr = +prompt("Enter PKR");
+
+//     if (isNaN(pkr)) {
+//         alert("Jani number enter kr ya phir dafaa ho ja!");
+//     }else if (pkr !== isNaN(pkr)){
+//         const usd = pkr * rate;
+//         alert(`PKR: ${pkr} = USD: ${usd}`);
+//     }
+// }
+
+// currencyConverterV1();
+
 
 
