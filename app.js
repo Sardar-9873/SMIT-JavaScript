@@ -78,7 +78,7 @@
 // console.log(students.unshift("Azan"));
 // console.log(students.shift());
 
-// console.log(students.splice(2 , 2)); 
+// console.log(students.splice(2 , 2));
 
 // console.log(students.splice(1 , 1 , "Kami"));
 // console.log(students.splice(1 , 0 , "Haseeb"))
@@ -358,7 +358,7 @@
 
 // console.log(nameOfToday);
 
-let text =  "The New Yorker magazine doesn't allow the phrase World War II.  They say it shouldbe the Second World War. So lets search the following sentence for the banned charactersand replace them with the phrase that the New Yorker prefers.It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien waswriting the trilogy, which contains, with the weird applicability available only to poetry andmyth, the essential notion that the good gray wizard can understand the evil magi preciselybecause he is just enough like them to grasp their minds and motives in ways that they cannotgrasp his." ;
+// let text =  "The New Yorker magazine doesn't allow the phrase World War II.  They say it shouldbe the Second World War. So lets search the following sentence for the banned charactersand replace them with the phrase that the New Yorker prefers.It is startling to think that, even in the darkest depths of World War II, J. R. R. Tolkien waswriting the trilogy, which contains, with the weird applicability available only to poetry andmyth, the essential notion that the good gray wizard can understand the evil magi preciselybecause he is just enough like them to grasp their minds and motives in ways that they cannotgrasp his." ;
 
 // for (let i = 0; i < text.length; i++) {
 // if (text.slice(i, i + 12) === "World War II") {
@@ -367,10 +367,133 @@ let text =  "The New Yorker magazine doesn't allow the phrase World War II.  The
 // }
 
 
-const firstChar = text.indexOf("World War II");
-if (firstChar !== -1) {
-     text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
-}
+// const firstChar = text.indexOf("World War II");
+// if (firstChar !== -1) {
+//      text = text.slice(0, firstChar) + "the Second World War" + text.slice(firstChar + 12);
+// }
 
-console.info(text);
+// debugger;
+
+// console.debug(text);
+
+// console.info(
+//      rightNow,
+//      rightNow.toString(),
+//      rightNow.toDateString(),
+//      rightNow.toLocaleDateString(),
+//      rightNow.toTimeString(),
+//      rightNow.toISOString(),
+//      rightNow.toUTCString()
+// );
+
+
+// console.log(
+//      rightNow.getDate(),
+//      rightNow.getDay(),
+//      rightNow.getFullYear(),
+//      rightNow.getHours(),
+//      rightNow.getMonth(),
+//      rightNow.getMinutes(),
+//      rightNow.getSeconds(),
+//      rightNow.getMilliseconds(),
+//      rightNow.getTime(),
+//      rightNow.getUTCDate(),
+//      rightNow.getUTCDay()
+// );
+
+
+// const word = "algebra";
+
+// let guessWord = word.split("");
+// guessWord[1] = "_";
+// guessWord[3] = "_";
+// guessWord[5] = "_";
+// guessWord = guessWord.join("");
+
+// alert(guessWord);
+// const date = new Date();
+// const startingTime = date.getTime();
+// console.log(startingTime);
+
+// const userAnswers = [];
+
+// for (let i = 0; i < 3; i++) {
+//   const answer = prompt("Enter the first letter");
+//   userAnswers.push(answer);
+// }
+
+// const finishingDate = new Date();
+// const finishingTime = finishingDate.getTime();
+
+// const timeConsumedInMS = finishingTime - startingTime;
+
+// const timeConsumedInSecs = timeConsumedInMS / 1000;
+
+// let userWord = guessWord;
+// for (let i = 0; i < 3; i++) {
+//   userWord = userWord.replace("_", userAnswers[i]);
+// }
+
+// if (userWord.toLowerCase() !== word) alert(" Ohho, Wrong word");
+// else if (timeConsumedInSecs > 5) alert(" Ohho, too slow");
+// else alert("You won, don't think you're genuis");
+
+
+
+// function date() {
+//      const now = new Date();
+
+//      const dayNames = ["Sun ", "Mon ", "Tue ", "Wed ", "Thu ", "Fri ", "Sat "];
+//      const theDay = now.getDay();
+//      const day = dayNames[theDay];
+
+//      const monthNames = [" Jan ", " Feb ", " Mar ", " Apr ", " May ", " Jun ", " Jul ", " Aug ", " Sep ", " Oct ", " Nov ", " Dec "];
+//      const theMonth = now.getMonth();
+//      const month = monthNames[theMonth];
+
+//      const date = now.getDate();
+
+//      const year = now.getFullYear();
+
+//      const hours = now.getHours();
+
+//      let minutes = now.getMinutes();
+//      if(minutes < 10){
+//      minutes = "0" + minutes;
+//      }else if (minutes >= 10){
+//      minutes = minutes;
+//      }
+
+//      let seconds = now.getSeconds();
+//      if(seconds < 10){
+//      seconds = "0" + seconds;
+//      }else if (seconds >= 10){
+//      seconds = seconds;
+//      }
+
+//      let UTC = now.toTimeString();
+//      UTC = UTC.slice(9);
+
+//      const finalDate = day + month + date + " " + year + " " + hours + ":" + minutes + ":" + seconds + " " + UTC;
+//      alert(finalDate);
+// }
+
+//  date();
+
+
+// function greetUser(firstName , userName , lastName) {
+//      const greeting = "Assalamualaikum " + firstName + " " + userName + " " + lastName;
+//      alert(greeting);
+// }
+
+// greetUser("M." , "Sahal" , "Shehzad");
+
+// function f() {
+//      const userName1 = prompt("Enter Your Name!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!")
+//      const greet = "Assalamualaikum " + userName1;
+//      alert(greet);
+// }
+
+// f();
+
 
