@@ -442,45 +442,6 @@
 // console.log(date101);
 
 
-// function date() {
-//      const now = new Date();
-
-//      const dayNames = ["Sun ", "Mon ", "Tue ", "Wed ", "Thu ", "Fri ", "Sat "];
-//      const theDay = now.getDay();
-//      const day = dayNames[theDay];
-
-//      const monthNames = [" Jan ", " Feb ", " Mar ", " Apr ", " May ", " Jun ", " Jul ", " Aug ", " Sep ", " Oct ", " Nov ", " Dec "];
-//      const theMonth = now.getMonth();
-//      const month = monthNames[theMonth];
-
-//      const date = now.getDate();
-
-//      const year = now.getFullYear();
-
-//      const hours = now.getHours();
-
-//      let minutes = now.getMinutes();
-//      if(minutes < 10){
-//      minutes = "0" + minutes;
-//      }else if (minutes >= 10){
-//      minutes = minutes;
-//      }
-
-//      let seconds = now.getSeconds();
-//      if(seconds < 10){
-//      seconds = "0" + seconds;
-//      }else if (seconds >= 10){
-//      seconds = seconds;
-//      }
-
-//      let UTC = now.toTimeString();
-//      UTC = UTC.slice(9);
-
-//      const finalDate = day + month + date + " " + year + " " + hours + ":" + minutes + ":" + seconds + " " + UTC;
-//      alert(finalDate);
-// }
-
-//  date();
 
 
 // function greetUser(firstName , userName , lastName) {
@@ -579,3 +540,58 @@
 
 
 
+// function date() {
+//      const now = new Date();
+
+//      const dayNames = ["Sun ", "Mon ", "Tue ", "Wed ", "Thu ", "Fri ", "Sat "];
+//      const theDay = now.getDay();
+//      const day = dayNames[theDay];
+
+//      const monthNames = [" Jan ", " Feb ", " Mar ", " Apr ", " May ", " Jun ", " Jul ", " Aug ", " Sep ", " Oct ", " Nov ", " Dec "];
+//      const theMonth = now.getMonth();
+//      const month = monthNames[theMonth];
+
+//      const date = now.getDate();
+
+//      const year = now.getFullYear();
+
+//      const hours = now.getHours();
+
+//      let minutes = now.getMinutes();
+//      if(minutes < 10){
+//      minutes = "0" + minutes;
+//      }else if (minutes >= 10){
+//      minutes = minutes;
+//      }
+
+//      let seconds = now.getSeconds();
+//      if(seconds < 10){
+//      seconds = "0" + seconds;
+//      }else if (seconds >= 10){
+//      seconds = seconds;
+//      }
+
+//      let UTC = now.toTimeString();
+//      UTC = UTC.slice(9);
+
+//      const finalDate = day + month + date + " " + year + " " + hours + ":" + minutes + ":" + seconds + " " + UTC;
+//      return finalDate;
+// }
+
+// const Date125 = date();
+// console.log(Date125);
+
+// let remainigSehriTimeInMins = 30;
+
+// while(remainigSehriTimeInMins !== 0){
+//     remainigSehriTimeInMins -= 30;
+//     console.log("Eat and drink");
+//     if(remainigSehriTimeInMins === 0){
+//         console.log("Rozedaroon, Allah Nabi ke pyaroon, Jannat ke haqdaroon sehri ka time khatam ho gaya hai khana pina band kr do.")
+//     }
+// }
+
+// do{
+//     remainigSehriTimeInMins -= 30;
+//     console.log("Eat and drink");
+// }while(remainigSehriTimeInMins === 0)
