@@ -595,3 +595,60 @@
 //     remainigSehriTimeInMins -= 30;
 //     console.log("Eat and drink");
 // }while(remainigSehriTimeInMins === 0)
+
+// const students = ["Sahal", "Anus", "Zohaib"];
+
+// const student0 = {
+//     name: "Sahal",
+//     age: 14,
+//     qualification: null,
+//     isMarried: false,
+//     friends: ["Anus", "Zohaib"],
+//     contact: {
+//         phoneNumber: 1020,
+//         email: "sahal@mailinator.com",
+//     }
+// }
+
+// const student1 = {
+//     name: "Anus",
+//     age: 19,
+//     qualification: null,
+//     isMarried: false,
+//     friends: ["Sahal", "Zohaib"],
+//     contact: {
+//         phoneNumber: 1122,
+//         email: "anus@mailinator.com",
+//     }
+// }
+
+// const student2 = {
+//     name: "Zohaib",
+//     age: 21,
+//     qualification: null,
+//     isMarried: false,
+//     friends: ["Anus", "Sahal"],
+//     contact: {
+//         phoneNumber: 1234,
+//         email: "zohaib@mailinator.com",
+//     }
+// }
+
+// male = true;
+// female = false;
+// others = undefined;
+
+const stdDetails = {
+    name: "Sahal",
+    age: 14,
+    gender: true,
+}
+
+// stdDetails.fullName = "M. Sahal Shehzad";
+// console.log(stdDetails , 1);
+
+// delete stdDetails.name;
+// console.log(stdDetails , 2);
+
+// const isNameExists = "name" in stdDetails;
+// console.log(isNameExists , 3);
