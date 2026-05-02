@@ -638,11 +638,11 @@
 // female = false;
 // others = undefined;
 
-const stdDetails = {
-    name: "Sahal",
-    age: 14,
-    gender: true,
-}
+// const stdDetails = {
+//     name: "Sahal",
+//     age: 14,
+//     gender: true,
+// }
 
 // stdDetails.fullName = "M. Sahal Shehzad";
 // console.log(stdDetails , 1);
@@ -652,3 +652,613 @@ const stdDetails = {
 
 // const isNameExists = "name" in stdDetails;
 // console.log(isNameExists , 3);
+
+
+
+
+// const myObj = {
+//   a: 1,
+//   b: 2,
+//   d: function () {
+//     console.log(this, "how're you");
+//   },
+// };
+
+// function abc() {
+//   console.log(this, "how're you");
+// }
+
+// abc();
+
+
+// upsert
+// myObj.a = 3; //update
+// myObj.c = 3; //insert
+
+// delete myObj.a;
+// myObj.d();
+
+// console.log(myObj);
+
+// const myNumber =12
+// function User(firstName, lastName, age) {
+//   this.firstName = firstName;
+//   this.lastName = lastName;
+//   this.age = age;
+// }
+
+// User.prototype.updateName = function (newName) {
+//   this.firstName = newName;
+// };
+
+// const firstUser = new User("Abdullah", "Motiwala", 30);
+// console.log(firstUser);
+// firstUser.updateName("Mohd.");
+// console.log(firstUser);
+
+// const secondUser = new User("Abdullah", "Motiwala", 30);
+// console.log(secondUser);
+// secondUser.updateName("Mohd.");
+// console.log(secondUser);
+
+// const myAr = [1, 2, 3];
+// console.log(myAr);
+
+// function myFoo5() {
+//   try {
+//     // your code here
+//     throw new Error("Sample Error");
+//   } catch (error) {
+//     alert("Error Appeared");
+//     console.log(error);
+//   }
+// }
+
+
+
+// class Product {
+//   constructor(name, price, stock, ...otherDetails) {
+//     this.name = name;
+//     this.price = price;
+//     this.stock = stock;
+//     this.otherDetails = otherDetails;
+//   }
+
+//   buy(quantity) {
+//     quantity = 1;
+//     if (quantity <= this.stock) {
+//       this.stock -= quantity;
+//       alert(`${quantity} ${this.name} bought.`);
+//     } else alert(`${this.name} is not available right now.`);
+//   }
+//   info() {
+//     alert(`Product Name: ${this.name} , Price: ${this.price} , Stock: ${this.stock} , Otherdetails: ${this.otherDetails}`);
+//   }
+// }
+
+
+
+// const p1 = new Product("Qurta", 5000, 3, "black", "Eminent");
+// const p2 = new Product("Shalwar", 3000, 1, "white", "Eminent");
+// const p3 = new Product("Shoes", 4000, 1, "black", "Eminent");
+// const p4 = new Product("Watch", 40000, 1, "golden", "Rado");
+// const p5 = new Product("Sunglasses", 2000, 1, "black", "Eminent");
+
+// p1.buy();
+// p1.info();
+
+// p2.buy();
+// p2.info();
+
+// p3.buy();
+// p3.info();
+
+// p4.buy();
+// p4.info();
+
+// p5.buy();
+// p5.info();
+
+
+// function orderFood(food, cb) {
+//     setTimeout(() => {
+//         console.log(food + " is ready.");
+//         cb(food);
+//     }, 3000)
+// }
+
+// orderFood("Biryani", delivery);
+
+// function delivery() {
+//     console.log("Food Delivered. 😋")
+// }
+
+// const sum  = (a, b) => {
+//     console.log(a + b)
+// };
+
+// function execute(a, b , fn){
+//     fn(a, b);
+// }
+
+// execute(2, 3, sum);
+
+
+
+
+
+// function login(user, cb){
+//     setTimeout(() => {
+//         console.log(`User Logged in!!!`);
+//         cb({user});
+//     }, 3000);
+// }
+
+// function getProfile(user, cb){
+//     setTimeout(() => {
+//         console.log(`Profile Fetched!!!`);
+//         cb({name: user})
+//     }, 3000);
+// }
+
+// function getOrders(profile, cb){
+//     setTimeout(() => {
+//         console.log(`Order Fetched`);
+//         cb(["Order1", "Order2"]);
+//     }, 3000);
+// }
+
+// function checkPayment(orders, cb){
+//     setTimeout(() => {
+//         console.log(`Payment Checked`);
+//         cb(true); 
+//     }, 3000);
+// }
+
+
+
+// login("Ali", function(user) {
+//   getProfile(user, function(profile) {
+//     getOrders(profile, function(orders) {
+//       checkPayment(orders, function(status) {
+//         setTimeout(() => {
+//             console.log("All done ✅");
+//         }, 3000);
+//       });
+//     });
+//   });
+// });
+
+
+
+// const myPromise = new Promise((resolve, reject) => {
+//     const isBusAvailable = false;
+//     setTimeout(() => {
+//         if(isBusAvailable) resolve({name: `Sahal`});
+//         else reject(Error, `Something is not working.`);
+//     }, 2000);
+// });
+
+
+// myPromise
+// .then((msg) => {
+//     console.log("msg");
+// })
+// .catch((err) => {
+//     console.log(err);
+// });
+
+
+// function biryaniBanao() {
+//     return new Promise((resolve, reject) => {
+//         const isGasAvailableInCylinder = false;
+
+//         setTimeout(() => {
+//             if (isGasAvailableInCylinder) {
+//                 resolve(`Biryani ready.😋`);
+//             } else {
+//                 reject(new Error(`Cannot cook biryani: gas not available.`));
+//             }
+//         }, 2000);
+//     });
+// }
+
+// biryaniBanao()
+//     .then((message) => {
+//         console.log(message);
+//     })
+//     .catch((error) => {
+//         console.error(`Promise rejected:`, error.message);
+//     });
+
+
+
+
+// function userLogin(username, password) {
+//     return new Promise((resolve, reject) => {
+//         () => {
+//             if (username === "Admin" && password === "112233") {
+//                 resolve({ username: "Admin", role: "Administrator" });
+//             } else {
+//                 reject(new Error("Invalid credentials"));
+//             }
+//         }
+//     });
+// }
+
+
+
+// function fetchData() {
+//     return new Promise((resolve, reject) => {
+//         () => {
+//             const data = "Sample Data";
+//             if(data === "Sample Data"){
+//                 resolve(data);
+//             }else{
+//                 reject(new Error("Data is not available.")); 
+//             }
+//         }
+//     });
+// }    
+
+
+
+// userLogin("Admin", "112233")
+// .then((msg) => {
+//     console.log(msg);    
+//     return fetchData();
+// })
+// .then((msg) => {
+//     console.log(msg);    
+// })
+// .catch((err) => {
+//     console.log(err);    
+// })
+
+
+
+// const array = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+
+// for(let el of array){
+//     console.log(el)
+// }
+
+// for(let i in array){
+//     console.log(i)
+// }
+
+// class Car{
+//     constructor(driver, brand, carName, model, acceleration){
+//         this.driver = driver;
+//         this.brand = brand;
+//         this.carName = carName;
+//         this.model = model;
+//         this.acceleration = acceleration;
+//     }
+
+//     startEngine(){
+//         setTimeout(() => {
+//             console.log("Engine Started🚗");
+//             setTimeout(() => {
+//                 console.log(this.driver, this.brand, this.carName, this.model, this.acceleration);
+//             }, 500);
+//         }, 2000);
+//     }
+
+//     stopEngine(){
+//         setTimeout(() => {
+//             console.log("Engine stopped🛑");
+//         }, 3000);
+//     }
+// }
+
+// const myCar = new Car("Sahal", "Toyota", "Land Cruiser", "ZX LC 300", 120);
+// myCar.startEngine();
+// myCar.stopEngine();
+
+
+
+
+// const myArr = [10, 20, 30, 40, 50];
+// const i = myArr[Symbol.iterator]();
+// console.log(i.next());
+// console.log(i.next());
+// console.log(i.next());
+// console.log(i.next());
+// console.log(i.next());
+
+
+
+
+// function chaiBanay() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("Chai ready ☕");
+//     }, 2000);
+//   });
+// }
+
+// async function serveChai() {
+//   let result = await chaiBanay();
+//   console.log(result);
+// }
+
+// serveChai();
+
+
+
+
+// function getMessage() {
+//   return new Promise((resolve) => {
+//     setTimeout(() => {
+//       resolve("Hello Student 👋");
+//     }, 2000);
+//   });
+// }
+
+// async function showMessage() {
+//     const message = await getMessage();
+//     console.log(message);
+// }
+
+// showMessage();
+
+
+// function step1() {
+//   return new Promise((res) => {
+//     setTimeout(() => res("Step 1 done"), 1000);
+//   });
+// }
+
+// function step2() {
+//   return new Promise((res) => {
+//     setTimeout(() => res("Step 2 done"), 2000);
+//   });
+// }
+
+
+// async function asyncChain() {
+//     try{
+//         const res1 = await step1();
+//         console.log(res1);
+
+//         const res2 = await step2();
+//         console.log(res2);
+
+//         console.log(`All done`);
+//     }catch(error){
+//         console.error(new Error("Something not working"));
+//     }
+// }
+
+// asyncChain();
+
+
+
+
+// function login(user) {
+//   return new Promise((resolve, reject) => {
+//     setTimeout(() => {
+//       if (user === "guest") {
+//         resolve("Login successful ✅");
+//       } else {
+//         reject("Invalid user ❌");
+//       }
+//     }, 1500);
+//   });
+// }
+
+// async function doLogin() {
+//   try {
+//     const result = await login("guest");
+//     console.log(result);
+//   } catch (error) {
+//     console.log("Error:", error);
+//   }
+// }
+
+// doLogin();
+
+
+
+
+// function fetchData() {
+//     return new Promise((resolve) => {
+//         setTimeout(() => {
+//             resolve({ name: "Sahal", age: 20 });
+//         }, 2000);
+//     });
+// }
+
+
+// async function completeDataFetching() {
+//     try {
+//         const result = await fetchData();
+//         console.log(result.name);
+//     } catch (error) {
+//         console.log("Error:", error)
+//     }
+// }
+
+// completeDataFetching();
+
+
+
+// function createBankAccount() {
+//   let balance = 1000;
+
+//   return {
+//     deposit: function(amount) {
+//         balance += amount;
+//         return balance;
+//     },
+//     withdraw: function(amount) {
+//         balance -= amount;
+//         return balance;
+//     }
+//   };
+// }
+
+// const account = createBankAccount();
+
+// console.log(account.deposit(500));   
+// console.log(account.withdraw(200));   
+// console.log(account.withdraw(1000));  
+
+
+// function createATM(pin){
+//     let balance = 1000;
+//     const correctPin = 1234;
+    
+//     if(pin === correctPin){
+//         alert(`Balance: ${balance}`);
+//     }else{
+//         alert(`Invalid pin`);
+//     }
+ 
+//     return {
+//         checkBalance: function(enterPin){
+//             if(enterPin === correctPin){
+//                 return `Your balance is: ${balance}`;
+//             } else {
+//                 return `Invalid pin`;
+//             }
+//         },    
+
+//         deposit: function(inputPin, amount){
+//             if(inputPin === correctPin){
+//                 balance += amount;
+//                 return `Deposited: ${amount}, New Balance: ${balance}`;
+//             } else {
+//                 return `Invalid pin`;
+//             }
+//         },
+
+//         withdraw: function(inputPin, amount){
+//             if(inputPin === correctPin){
+//                 if(amount <= balance){
+//                     balance -= amount;
+//                     return `Withdrawn: ${amount}, New Balance: ${balance}`;
+//                 } else {
+//                     return `Insufficient funds`;
+//                 }
+//             } else {
+//                 return `Invalid pin`;
+//             }
+// }
+// }
+// }
+
+
+// const atm = createATM(1234);
+
+// console.log(atm.checkBalance(1234));
+// console.log(atm.deposit(1234, 500));
+// console.log(atm.withdraw(1234, 200));
+// console.log(atm.withdraw(1234, 2000)); // error case
+// console.log(atm.checkBalance(9999));   // wrong PIN
+
+
+
+// const user = { name: "Ali" };
+
+// function greet(age) {
+//     console.log(this.name, age);
+// }
+
+// greet.call(user, 20);
+
+
+
+// const user = { name: "Ahmed" };
+
+// function greet(age, city) {
+//     console.log(this.name, age, city);
+// }
+
+// greet.apply(user, [22, "Karachi"]);
+
+
+// const user = { name: "Sara" };
+
+// function greet() {
+//     console.log(this.name);
+// }
+
+// const newFunc = greet.bind(user);
+
+// newFunc();
+
+
+
+// const fruits = ["apple", "banana", "mango"];
+// const [firstFruit, secondFruit, thirdFruit] = fruits;
+
+// console.log(firstFruit);  
+// console.log(secondFruit); 
+// console.log(thirdFruit);
+
+
+
+// const user = {
+//     name: "Ali",
+//     age: 22,
+//     city: "Karachi"
+// };
+
+// const { name, age, city } = user;
+
+// console.log(name); 
+// console.log(age);  
+// console.log(city);
+
+
+// const student = {
+//     name: "Sahal"
+// };
+
+// const { name: studentName, age: studentAge = 14 } = student;
+
+// console.log(studentName);
+// console.log(studentAge);
+
+
+
+
+// function showNumbers(...nums) {
+//     console.log(...nums);
+// }
+
+// showNumbers(1, 2, 3, 4, 5, 6, 7, 8, 9, 10, 11, 12, 13, 14, 15, 16, 17, 18, 19, 20, 21, 22, 23, 24, 25, 26, 27, 28, 29, 30, 31, 32, 33, 34, 35, 36, 37, 38, 39, 40, 41, 42, 43, 44, 45, 46, 47, 48, 49, 50, 51, 52, 53, 54, 55, 56, 57, 58, 59, 60, 61, 62, 63, 64, 65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77, 78, 79, 80, 81, 82, 83, 84, 85, 86, 87, 88, 89, 90, 91, 92, 93, 94, 95, 96, 97, 98, 99, 100);
+
+
+
+// const numbers = [1, 2, 2, 3, 4, 4, 5, 5, 6];
+// const uniqueNumbers = [...new Set(numbers)];
+// console.log(uniqueNumbers);
+
+// const marks = new Map();
+// marks.set("Ali", 80);
+// marks.set("Sara", 90);
+// marks.set("Ahmed", 70);
+
+
+// console.log(marks.get("Ali"));
+// console.log(marks.has("Sara"));
+// console.log(marks.size);
+// marks.delete("Ahmed");
+// console.log(marks.size);
+// console.log(marks);
+
+
+
+// const students = new Set();
+// students.add("Sahal");
+// students.add("Anus");
+// students.add("Zohaib");
+// students.add("Sahal");
+
+// console.log(students);
+// students.delete("Zohaib");
+// console.log(students.has("Zohaib"));
+// console.log(students.size);
