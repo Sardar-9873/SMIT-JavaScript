@@ -1262,3 +1262,125 @@
 // students.delete("Zohaib");
 // console.log(students.has("Zohaib"));
 // console.log(students.size);
+
+
+
+// const nums = [1, 2, 3, 4];
+// const numsMap = nums.map(num => num * num);
+// console.log(numsMap);
+
+
+// const ages = [12, 18, 25, 10, 30];
+// const adults = ages.filter(age => age >= 18);
+// console.log(adults);
+
+
+// const fruits = ["apple", "banana", "mango"];
+// const isBananaPresent = fruits.includes("banana");
+// console.log(isBananaPresent); 
+
+
+// const users = [
+//   {name: "Ali", age: 17},
+//   {name: "Sara", age: 22},
+//   {name: "Ahmed", age: 19}
+// ];
+// const isAdultPresent = users.find(user => user.age >= 18);
+// console.log(isAdultPresent);
+
+
+// const marks = [40, 55, 70, 25, 80];
+// const failure = marks.some(mark => mark < 33);
+// console.log(failure);
+
+
+// const nums1 = [2, 4, 6, 8];
+// const areAllEven = nums1.every(num => num % 2 === 0);
+// console.log(areAllEven);
+
+
+
+// const prices = [100, 200, 300];
+// const totalBill = prices.reduce((total, price) => total + price, 0);
+// console.log(totalBill);
+
+
+// const marks1 = [80, 90, 100];
+// const average = marks1.reduce((total, mark) => total + mark, 0) / marks1.length;
+// console.log(average);
+
+
+// const items = ["apple", "banana", "apple", "orange", "banana", "apple"];
+// const frequency = items.forEach(item => {
+//     console.log(item + " is present " + items.filter(i => i === item).length + " times.");
+// })
+
+
+// const numbers = [5, 10, 15, 20];
+// const upto10 = numbers.filter(num => num > 10);
+// console.log(upto10);
+// const doubledUpto10 = upto10.map(num => num + num);
+// console.log(doubledUpto10);
+
+
+// const arr = [1, [2, 3], [4, [5]]];
+// const flatArr = arr.flat(3);
+// console.log(flatArr);
+
+
+// const nums2 = [100, 25, 5, 70];
+// const sortedNums2 = nums2.sort((x, y) => x - y);
+// console.log(sortedNums2);
+
+
+// const users1 = [
+//   {name: "Ali", age: 17},
+//   {name: "Sara", age: 22},
+//   {name: "Ahmed", age: 19},
+//   {name: "Zain", age: 15}
+// ];
+// const adultUsersNames = users1.filter(user => user.age >= 18).map(user => user.name);
+// console.log(adultUsersNames);
+
+
+
+// const nums20 = [10, 50, 30, 90, 40];
+// const maxNum20 = nums20.reduce((max, num) => num > max ? num : max, nums20[0]);
+// console.log(maxNum20);
+
+
+// const nums30 = [1, 2, 2, 3, 4, 4, 5];
+// const uniqueNums30 = nums30.reduce((unique, num) => {
+//     if (!unique.includes(num)) {
+//         unique.push(num);
+//     }
+//     return unique;
+// }, []);
+// console.log(uniqueNums30);
+
+
+// const words = ["hello", "world"];
+// const upperCaseWords = words.map(word => word.toUpperCase());
+// console.log(upperCaseWords);
+
+
+
+// const nums40 = [1, 2, 3, 4];
+// const nums40WithDuplicates = nums40.flatMap(num => [num, num]);
+// console.log(nums40WithDuplicates);
+
+
+
+// const students = [
+//   {name: "Ali", marks: [80, 90, 70]},
+//   {name: "Sara", marks: [60, 75, 85]},
+//   {name: "Ahmed", marks: [90, 95, 92]}
+// ];
+// const studentsWithAverageMarks = students.map(student => {
+//     const averageMarks = student.marks.reduce((total, mark) => total + mark, 0) / student.marks.length;
+//     return {...student, marks: averageMarks};
+// });
+// console.log(studentsWithAverageMarks);
+
+
+//JavaScript and ECMAScript completed.
