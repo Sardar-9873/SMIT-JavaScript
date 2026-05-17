@@ -1109,13 +1109,13 @@
 // function createATM(pin){
 //     let balance = 1000;
 //     const correctPin = 1234;
-    
+
 //     if(pin === correctPin){
 //         alert(`Balance: ${balance}`);
 //     }else{
 //         alert(`Invalid pin`);
 //     }
- 
+
 //     return {
 //         checkBalance: function(enterPin){
 //             if(enterPin === correctPin){
@@ -1383,4 +1383,49 @@
 // console.log(studentsWithAverageMarks);
 
 
-//JavaScript and ECMAScript completed.
+// let i = 1;
+// while(i <= 15){
+//     console.log(i);
+//     i++;
+// }
+
+
+// let i = 1;
+// while(i <= 20){
+//     console.log(i);
+//     i += 2;
+// }
+
+// const colors = ["red", "blue", "green", "black"];
+
+// let i = colors.length - 1;
+
+// while(i >= 0){
+//     console.log(colors[i]);
+//     i--;
+// }.
+
+
+// let i = 5;
+// do {
+//     console.log(i);
+//     i--;
+// } while (i > 0);
+
+
+// const numsToSum = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// let i = 0;
+// do {
+//     console.log(numsToSum[0] + numsToSum[1] + numsToSum[2] + numsToSum[3] + numsToSum[4] + numsToSum[5] + numsToSum[6] + numsToSum[7] + numsToSum[8] + numsToSum[9]);
+// } while (i > 0);
+
+
+// let i = 0;
+// do {
+//     console.log(`3 x ${i} = ${i * 3}`);
+//     i++;
+// } while (i <= 10);
+
+
+
+//Alhamdulillah! JavaScript and ECMAScript completed.
