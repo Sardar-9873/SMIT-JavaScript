@@ -1420,11 +1420,59 @@
 // } while (i > 0);
 
 
-// let i = 0;
+// let i = 1;
 // do {
 //     console.log(`3 x ${i} = ${i * 3}`);
 //     i++;
 // } while (i <= 10);
+
+
+for (let i = 1; i <= 5; i++) {
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += "* ";
+    }
+
+    document.write("<br />", row);
+}
+
+document.write("<hr />")
+
+for (let i = 1; i <= 6; i++) {
+    let row = "";
+
+    for (let j = 1; j <= i; j++) {
+        row += j + " ";
+    }
+
+    document.write("<br />", row);
+}
+
+document.write('<hr />');
+
+for (let i = 0; i < 10; i++) {
+
+    let start = i * 10 + 1;
+
+    for (let j = start; j < start + 10; j++) {
+        document.write(j + " ");
+    }
+
+    document.write("<br />");
+}
+
+document.write('<hr />');
+
+for (let i = 1; i <= 5; i++) {
+
+    for (let j = 1; j <= 5; j++) {
+        document.write(j + " ");
+    }
+
+    document.write("<br>");
+}
+
 
 
 
